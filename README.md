@@ -2,7 +2,7 @@
 
 A universal Bash script for scanning multiple IP addresses with specific ports using nmap. Perfect for penetration testers and security researchers who need to scan different services running on various ports across multiple hosts.
 
-Sometimes you need to scan a list of IP addresses with Nmap for a specific service on a known port. For instance, you might have 30 different IPs using 7 ports (and you know which port goes with each IP). Instead of running Nmap on all 30 IPs for each of the 7 ports (like `nmap -iL 30ips.txt -p80,443,1443,4443,8080,8443,9443,10443`), you can just use a script to scan those 30 IPs for each port listed in a text file (like `input.txt`) more effectively.
+Sometimes you need to scan a list of IP addresses with Nmap for a specific service on a known port. For instance, you might have 30 different IPs using 7 ports (and you know which port goes with each IP). Instead of running Nmap on all 30 IPs for each of the 7 ports (like `nmap -iL 30ips.txt -p80,443,1443,4443,8080,8443,9443`), you can just use a script to scan those 30 IPs for each port listed in a text file (like `input.txt`) more effectively.
 
 ## Features
 
